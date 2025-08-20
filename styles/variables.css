@@ -1,1 +1,17 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-family-variable: 'Inter-Variable';
+  --font-family-ps: 'PressStart2P-Regular';
+  --font-size-text: 18px;
+  --font-size-button: 14px;
+  --font-size-title: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --font-size-title-p: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --font-weight-card-title: 715;
+  --font-weight-card-text: 410;
+  --font-weight-button: 400;
+  --width-clamp: clamp(375px, calc(375px + (325 * ((100vw - 375px) / 1065))), 700px);
+  --pading-clamp: clamp(122px, calc(122px + 0.007512 * (100vw - 375px)), 130px);
+  --bg-color: #FFF;
+  --border-color: #000;
+  --contour-color: #000;
+  --animation-color: #FF0000;
+}
