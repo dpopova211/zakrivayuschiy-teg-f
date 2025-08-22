@@ -1,6 +1,6 @@
 :root {
   --font-family-variable: 'Inter-Variable';
-  --font-family-ps: 'PressStart2P-Regular';
+  --font-family-ps: 'PressStart2P';
   --font-size-text: 18px;
   --font-size-button: 14px;
   --font-size-title: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
