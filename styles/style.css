@@ -10,7 +10,7 @@
   repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
   repeating-linear-gradient(#e7e7e7 0px 0.01%, #1a1a1a);
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   font-family: var(--font-family-variable, fantasy);
   font-size: var(--font-size-text, 18px);
   font-variation-settings: "wght" var(--font-weight-card-text, 410);
@@ -84,11 +84,19 @@
 }
 
 .image-gr-sep {
-  filter: grayscale(40%) sepia(80%);
+  filter: grayscale(40%) sepia(60%);
+}
+
+.image-sep {
+  filter: sepia(80%);
 }
 
 .image-sat-contr {
   filter: saturate(200%) contrast(120%);
+}
+
+.image-sat {
+  filter: saturate(120%);
 }
 
 .image-sat-contr-inv {
